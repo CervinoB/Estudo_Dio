@@ -2,4 +2,4 @@
 
 ## Fazendo um Icone de chat flutuante:
 
-![Gif]()
+![Gif](https://media.giphy.com/media/ZKBnoE3yAIIHdkIHyj/giphy.gif)
