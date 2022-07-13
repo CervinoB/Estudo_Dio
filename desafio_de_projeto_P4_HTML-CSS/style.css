@@ -38,10 +38,16 @@ a {
     text-decoration: none;
     color: whitesmoke;
     font-size: 24px;
-    padding: 1rem, 4rem;
+    padding: 1rem 4rem;
     border: 1px solid whitesmoke;
     min-width: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .15s cubic-bezier(0.55, 0.025, 0.675, 0.97);
+}
+
+a:hover {
+    color: #a21fad;
+    background-color: whitesmoke;
 }
