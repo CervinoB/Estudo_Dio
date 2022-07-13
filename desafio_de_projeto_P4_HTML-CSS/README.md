@@ -2,4 +2,4 @@
 
 ## Fazendo um KeyFrame:
 
-![Gif do card]()
+![Gif do card](https://media.giphy.com/media/f8khiKL1NdfPcbJZ8T/giphy.gif)
