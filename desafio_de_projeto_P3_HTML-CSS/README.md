@@ -1,7 +1,5 @@
 # Desafio de projeto parte 3!
 
-## Fazendo um *** animado:
+## Fazendo uma CheckBox animada:
 
-## Anotações:
-
-- 
+![Gif do card](https://media.giphy.com/media/xarwyg9rZ1W37Lywie/giphy.gif)
