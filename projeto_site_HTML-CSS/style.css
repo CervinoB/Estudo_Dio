@@ -11,7 +11,7 @@ body {
 
 .header-wrapper {
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background: linear-gradient(-45deg, #5e0878, #aa5cf3, #a21fad, #9932cd);
     background-size: 400% 400%;
     display: flex;
@@ -85,7 +85,7 @@ a:hover {
     justify-content: center;
     cursor: pointer;
     z-index: 9999;
-    transition: 400ms ease-in-out 0;
+    transition: 400ms ease-in-out 0s;
 }
 
 .checkbox .trace {
@@ -128,7 +128,7 @@ a:hover {
     border-radius: 50%;
     box-shadow: 0px 0px 0px 0px #f5f5f5;
     z-index: -1;
-    transition: 400ms ease-in-out 0;
+    transition: 400ms ease-in-out 0s;
 }
 
 .menu-items {
@@ -143,14 +143,14 @@ a:hover {
     z-index: 2;
     opacity: 0;
     visibility: hidden;
-    transition: 400ms ease-in-out 0;
+    transition: 400ms ease-in-out 0s;
 }
 
 .menu-items ul {
     list-style-type: none;
 }
 
-.menu-items ul li {
+.menu-items ul li a {
     margin: 10px 0;
     color: #9932cd;
     text-decoration: none;
@@ -180,4 +180,16 @@ a:hover {
     top: 48px;
 }
 
+#toggle:checked + .checkbox {
+    background-color: #f5f5f5;
+}
 
+#toggle:checked ~ .menu {
+    box-shadow: 0px 0px 0px 100vmax #f5f5f5;
+    z-index: 1;
+}
+
+#toggle:checked ~ .menu-items {
+    visibility: visible;
+    opacity: 1;
+}
