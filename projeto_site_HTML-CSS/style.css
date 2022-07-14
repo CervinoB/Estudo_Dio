@@ -52,7 +52,7 @@ h2 {
 
 a:hover {
     color: black;
-    background-color: #a21fad;
+    background-color: #f5f5f5;
 }
 
 @keyframes backgroundTransition {
@@ -288,4 +288,13 @@ a:hover {
     font-size: 14px;
     opacity: 1;
     visibility: visible;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9932cd;
 }
