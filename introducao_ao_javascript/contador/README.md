@@ -1,5 +1,5 @@
-# Desafio de projeto!
+# Introdução ao JavaScript!
 
-## Fazendo um site com menu haburguer:
+## Fazendo um site com um contador:
 
-![Gif](https://media.giphy.com/media/bLgac5ygVBcxyaOlr1/giphy.gif)
+![Gif](https://media.giphy.com/media/XWuP5olE419lVXEgr0/giphy.gif)
